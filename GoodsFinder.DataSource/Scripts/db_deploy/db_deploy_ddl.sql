@@ -28,6 +28,7 @@ CREATE TABLE Product.ProductCategory (
 CREATE TABLE Product.ProductReview (
     Id bigint NOT NULL,
 	ProductId bigint NOT NULL,
+	ReviewTime DateTime NOT NULL,
 	Title varchar(127) NULL,
 	Manufacturer varchar(127) NULL,
 	Rate float NULL,
