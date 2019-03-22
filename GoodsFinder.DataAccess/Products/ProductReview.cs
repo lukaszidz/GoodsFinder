@@ -1,3 +1,5 @@
+using System;
+
 namespace GoodsFinder.DataAccess.Products
 {
     public class ProductReview
