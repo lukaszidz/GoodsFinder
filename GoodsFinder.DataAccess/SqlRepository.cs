@@ -6,6 +6,7 @@ namespace GoodsFinder.DataAccess
     public abstract class SqlRepository
     {
         private string _connectionString;
+        
         public SqlRepository(string connectionString)
         {
             _connectionString = connectionString;
