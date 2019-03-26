@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoodsFinder", "GoodsFinder.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoodsFinder.DataAccess", "GoodsFinder.DataAccess\GoodsFinder.DataAccess.csproj", "{7609448F-26F6-4ECF-B6FB-E3F45D691FD6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoodsFinder.Core", "GoodsFinder.Core\GoodsFinder.Core.csproj", "{0EA5EF1F-FC92-46B1-AD56-34E83244E9FF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,5 +46,17 @@ Global
 		{7609448F-26F6-4ECF-B6FB-E3F45D691FD6}.Release|x64.Build.0 = Release|Any CPU
 		{7609448F-26F6-4ECF-B6FB-E3F45D691FD6}.Release|x86.ActiveCfg = Release|Any CPU
 		{7609448F-26F6-4ECF-B6FB-E3F45D691FD6}.Release|x86.Build.0 = Release|Any CPU
+		{0EA5EF1F-FC92-46B1-AD56-34E83244E9FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EA5EF1F-FC92-46B1-AD56-34E83244E9FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EA5EF1F-FC92-46B1-AD56-34E83244E9FF}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{0EA5EF1F-FC92-46B1-AD56-34E83244E9FF}.Debug|x64.Build.0 = Debug|Any CPU
+		{0EA5EF1F-FC92-46B1-AD56-34E83244E9FF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0EA5EF1F-FC92-46B1-AD56-34E83244E9FF}.Debug|x86.Build.0 = Debug|Any CPU
+		{0EA5EF1F-FC92-46B1-AD56-34E83244E9FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EA5EF1F-FC92-46B1-AD56-34E83244E9FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EA5EF1F-FC92-46B1-AD56-34E83244E9FF}.Release|x64.ActiveCfg = Release|Any CPU
+		{0EA5EF1F-FC92-46B1-AD56-34E83244E9FF}.Release|x64.Build.0 = Release|Any CPU
+		{0EA5EF1F-FC92-46B1-AD56-34E83244E9FF}.Release|x86.ActiveCfg = Release|Any CPU
+		{0EA5EF1F-FC92-46B1-AD56-34E83244E9FF}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
