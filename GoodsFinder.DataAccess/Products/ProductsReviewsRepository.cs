@@ -13,10 +13,11 @@ namespace GoodsFinder.DataAccess.Products
         {
             using (var conn = GetConnection())
             {
-                var sql = "SELECT TOP(@Quantity) Id, ProductId, ReviewTime, Title, Manufacturer, Rate, Text FROM ProductReview";
+                var sql = "SELECT TOP(@Quantity) Id, ProductId, ReviewTime, Title, Manufacturer, Rate, Text FROM ProductReview WHERE ProductId = @ProductId";
                 var parameters = new DynamicParameters();
                 parameters.Add("@Quantity", quantity, System.Data.DbType.Int64);
-                return await conn.QueryAsync<ProductReview>(sql);
+                parameters.Add("@ProductId", productId, System.Data.DbType.Int64);
+                return await conn.QueryAsync<ProductReview>(sql, parameters);
             }
         }
     }
